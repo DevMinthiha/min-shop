@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+    width: min(90%, 1300px);
+    margin: 50px auto;
+}
+
+.btn {
+    @apply px-3 py-1 rounded-md shadow-lg border-0 text-white;
+}
